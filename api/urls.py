@@ -1,4 +1,3 @@
-from django.urls import path
 
 # from api.views import BookReviewDetailAPIView, BookReviewsAPIView
 from rest_framework.routers import DefaultRouter
