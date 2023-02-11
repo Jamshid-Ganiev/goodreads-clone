@@ -14,7 +14,7 @@ class HomePageTestCase(TestCase):
         user.set_password("qwerty")
         user.save()
 
-        review1 = BookReview.objects.create(book=book, user=user, stars_given=5, comment="Excellent Book")
+        review1 = BookReview.objects.create(book=book, user=user, stars_given=5, comment="Best Book")
         review2 = BookReview.objects.create(book=book, user=user, stars_given=3, comment="Useful Book")
         review3 = BookReview.objects.create(book=book, user=user, stars_given=2, comment="Good Book")
 
